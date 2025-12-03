@@ -1,0 +1,13 @@
+:root {
+  --white: #fff;
+  --red: #ff0002;
+  --flag-hw: 200px;
+}
+
+.flag {
+  height: var(--flag-hw);
+  width: var(--flag-hw);
+  background: var(--red);
+  display: flex;
+  margin: 30px auto;
+}
