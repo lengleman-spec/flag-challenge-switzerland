@@ -9,5 +9,19 @@
   width: var(--flag-hw);
   background: var(--red);
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 30px auto;
+  position: relative;
+}
+
+.cross {
+  background: var(--white);
+  height: calc(var(--flag-hw) * 3 / 16);
+  width: calc(var(--flag-hw) * 5 / 8);
+}
+
+.cross2 {
+  transform: rotate(90deg);
+  position: absolute;
 }
